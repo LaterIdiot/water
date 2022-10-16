@@ -1,0 +1,80 @@
+a.navbar-brand {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+#navbarSupportedContent .nav-item .active {
+  color: #fff;
+  font-weight: 600;
+}
+
+#navbarSupportedContent .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.page {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  padding-top: 4.5rem;
+  margin-top: -3.5rem;
+  position: relative;
+}
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar-default {
+  background-color: #225780;
+  padding: 0.75rem 0;
+}
+
+.paragraph {
+  font-size: 1.25rem;
+}
+
+.ul-list {
+  font-size: 1.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #225780;
+  border: 3px solid #fff;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
